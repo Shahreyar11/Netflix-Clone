@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(Assets/background\ img_11zon.png);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 150px;
+  position: relative;
+  top: 10px;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Open Sans", sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  position: relative;
+  /* gap: 23px; */
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  /*this ">" for immediate child*/
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 700;
+  font-size: 45px;
+  /* gap: 23px; */
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  /* gap: 12px; */
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 0 18px 0;
+  text-align: center;
+}
+
+.hero > :nth-child(4) {
+  /* gap: px; */
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+.separation {
+  height: 7px;
+  background-color: rgb(51, 50, 50);
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(218, 210, 210, 0.026);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.hero-buttons{
+  padding: 11px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main input {
+  padding: 8px 150px 8px 4px;   /* top right bottom left*/
+  color: white;
+  /* font-weight: 450; */
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(187, 182, 182, 0.5);
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.l-text{
+  display: flex;
+  justify-content:space-between;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.s-text{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}
+.secImg{
+  position: relative;
+}
+
+.secImg{
+  /* border: 1px solid white; */
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+  /* padding: 15px 1px 1px 30px; */
+}
+
+.secImg video{
+  position: absolute;
+  top: 41px;
+  right: 31.2px;
+}
+
+.separation2{
+  height: 7px;
+  background-color: rgb(51, 50, 50);
+}
+
+/* .l-tex{
+  display: flex;
+  justify-content:space-between;
+  font-size: 36px;
+  font-weight: bolder
+}
+
+.s-tex{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+} */
+/* 
+.second{
+  font-family: "Open Sans", sans-serif;
+} */
+
+.faq h2{
+  text-align: center;
+  font-size: 40px;
+
+}
+.faq{
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+
+.faqbox{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(65, 64, 64);
+  font-size: 16px;
+  padding: 24px;
+  max-width: 50vw;
+  margin: 12px auto;
+  cursor: pointer;
+}
+
+.faqbox:hover{
+  filter: brightness(1.5);
+}
